@@ -19,5 +19,12 @@ enum Size2 {Small = 'a', Medium = 'b', Large = 'c'}
 let mySize2 = Size2.Small;
 console.log(mySize2);
 
+// for more optimize code we need to use const
+
+const enum Size3 {Small=30, Medium, Large}
+let mySize3 = Size3.Large;
+console.log(mySize3);
+
+
  
 

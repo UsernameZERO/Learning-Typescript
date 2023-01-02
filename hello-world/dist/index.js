@@ -31,4 +31,6 @@ var Size2;
 })(Size2 || (Size2 = {}));
 let mySize2 = Size2.Small;
 console.log(mySize2);
+let mySize3 = 32 /* Size3.Large */;
+console.log(mySize3);
 //# sourceMappingURL=index.js.map
