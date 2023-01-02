@@ -1,12 +1,8 @@
+let numbers: number[] = [1, 2, 3]; // number[]
 
-let sales = 123_456_789;
-let courses = 'Typescript';
-let is_published: boolean = true;
-let level;
-// level = 1;
-// level = 'a';
+let numbers1 = [4, 5, 6]; // number[]
 
-function render(document: any) {
-  console.log(document);
-  
-}
+let numbers2 = [];  // any[] it means it takes mixed value types...
+
+numbers.forEach(n => n.toString);
+
