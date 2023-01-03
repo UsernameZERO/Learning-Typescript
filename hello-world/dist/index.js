@@ -1,7 +1,14 @@
 "use strict";
-let age = 50;
-if (age < 30) {
-    age + 10;
+class Account {
+    constructor(id, owner, balance) {
+        this.id = id;
+        this.owner = owner;
+        this.balance = balance;
+    }
+    deposit(amount) {
+        if (amount < 0)
+            throw new Error('Invalid amount');
+        this.balance += amount;
+    }
 }
-console.log(age);
 //# sourceMappingURL=index.js.map
